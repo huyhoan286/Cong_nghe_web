@@ -7,7 +7,7 @@ use Illuminate\Database\Seeder;
 use Faker\Factory as Faker;
 use App\Models\Computer;
 
-class ComputersTableSeeder extends Seeder
+class ComputersTableSeeder extends Seeder  
 {
     /**
      * Run the database seeds.

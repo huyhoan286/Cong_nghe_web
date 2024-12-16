@@ -6,6 +6,7 @@ use App\Models\Issue;
 use App\Models\Computer;
 use Illuminate\Http\Request;
 
+
 class IssueController extends Controller
 {
     /**
