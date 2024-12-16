@@ -12,7 +12,7 @@ class IssuesTableSeeder extends Seeder
     /**
      * Run the database seeds.
      */
-    public function run(): void 
+    public function run(): void
     {
         $faker = Faker::create();
 

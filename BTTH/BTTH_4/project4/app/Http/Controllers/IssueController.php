@@ -6,11 +6,10 @@ use App\Models\Issue;
 use App\Models\Computer;
 use Illuminate\Http\Request;
 
-
 class IssueController extends Controller
 {
     /**
-     * Hiển thị danh sách các đồ án có kiểu phân trang dùng paginatepaginate.
+     * Hiển thị danh sách .
      */
     public function index()
     {
@@ -20,7 +19,7 @@ class IssueController extends Controller
     }
 
     /**
-     * Hiển thị form tạo đồ án mới.
+     * Hiển thị form mới.
      */
     public function create()
     {
@@ -29,7 +28,7 @@ class IssueController extends Controller
     }
 
     /**
-     * Lưu đồ án mới.
+     * Lưu vấn đềđề mới.
      */
     public function store(Request $request)
     {
@@ -55,7 +54,7 @@ class IssueController extends Controller
     }
 
     /**
-     * Hiển thị form chỉnh sửa đồ án.
+     * Hiển thị form chỉnh sửa vấn đềđề.
      */
     public function edit($id)
     {
@@ -65,7 +64,7 @@ class IssueController extends Controller
     }
 
     /**
-     * Cập nhật thông tin đồ ánán.
+     * Cập nhật thông tin vấn đềđề.
      */
     public function update(Request $request, string $id)
     {
@@ -85,7 +84,7 @@ class IssueController extends Controller
     }
 
     /**
-     * Xóa đồ án.
+     * Xóa .
      */
     public function destroy(string $id)
     {

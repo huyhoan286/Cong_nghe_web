@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\IssueController; 
+use App\Http\Controllers\IssueController;
 
 // Đường dẫn hiển thị danh sách các vấn đề (trang chủ)
 Route::get('/', [IssueController::class, 'index'])->name('issues.index');

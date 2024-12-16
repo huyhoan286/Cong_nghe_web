@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head> 
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sửa Vấn Đề</title>
@@ -10,7 +10,7 @@
 
 <body>
     <div class="container mt-5">
-        <h2>Sửa Vấn Đề</h2>
+        <h2>Sửa </h2>
         <form action="{{ route('issues.update', $issue->id) }}" method="POST">
             @csrf
             @method('PUT')
